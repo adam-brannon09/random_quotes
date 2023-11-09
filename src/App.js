@@ -28,7 +28,13 @@ function App() {
             <h3>- {author}</h3>
           </div>
         </div>
+        <div className="row justify-content-end">
+          <div className="col">
+            <button type="button" className="btn text-white fs-3" onClick={getQuote}>Get Another Quote</button>
+          </div>
+        </div>
       </div>
+
     </div>
 
 
